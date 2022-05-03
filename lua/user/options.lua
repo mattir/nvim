@@ -28,7 +28,7 @@ vim.opt.tabstop = 2                             -- insert 2 spaces for a tab
 vim.opt.cursorline = true                       -- highlight the current line
 vim.opt.number = true                           -- set numbered lines
 vim.opt.relativenumber = false                  -- set relative numbered lines
-vim.opt.numberwidth = 4                         -- set number column width to 2 {default 4}
+vim.opt.numberwidth = 2                         -- set number column width to 2 {default 4}
 vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
 vim.opt.wrap = false                            -- display lines as one long line
 vim.opt.scrolloff = 8                           -- is one of my fav
@@ -40,3 +40,10 @@ vim.opt.shortmess:append "c"
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
+
+-- options for Nord colorscheme
+vim.g.nord_contrast = true
+vim.g.nord_borders = true
+vim.g.nord_cursorline_transparent = true
+vim.g.nord_disable_background = false
+vim.g.nord_italic = false
