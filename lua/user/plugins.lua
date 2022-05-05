@@ -46,7 +46,8 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim"           -- Useful lua functions used by lots of plugins
   use "windwp/nvim-autopairs"           -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim"           -- Easily comment stuff
-  
+  use 'kyazdani42/nvim-web-devicons'    -- Icons for NvimTree and other plugins
+
   -- colorscheme
   use "shaunsingh/nord.nvim"            -- Neovim port of the Nord vim colorscheme
 
@@ -80,6 +81,13 @@ return packer.startup(function(use)
 
   -- Git
   use "lewis6991/gitsigns.nvim"
+
+  -- NvimTree
+  use 'kyazdani42/nvim-tree.lua'
+
+  -- Bufferline
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
