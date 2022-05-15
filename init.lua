@@ -1,4 +1,4 @@
--- Neovim init config file. Created 2022-04-17 by Matt Gilbert. Last updated 2022-04-17
+-- Neovim init config file. Created 2022-04-17 by Matt Gilbert. Last updated 2022-05-07
 
 require "user.options"
 require "user.keymaps"
